@@ -1,0 +1,604 @@
+[
+  {
+    "id": 1,
+    "title": "The Shawshank Redemption",
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "releaseDate": "1994-09-23",
+    "director": "Frank Darabont",
+    "cast": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton"
+    ],
+    "duration": 142,
+    "rating": 9.3,
+    "category": "Drama",
+    "poster": "https://example.com/shawshank_redemption.jpg",
+    "trailer": "https://youtube.com/watch?v=6hB3S9bIaco",
+    "reviews": [
+      {
+        "author": "John Doe",
+        "content": "A masterpiece of storytelling and character development.",
+        "rating": 5
+      },
+      {
+        "author": "Jane Smith",
+        "content": "One of the greatest films ever made. A must-watch!",
+        "rating": 5
+      }
+    ],
+    "awards": [
+      "7 Academy Award nominations",
+      "Golden Globe Award for Best Screenplay"
+    ],
+    "boxOffice": {
+      "budget": 25000000,
+      "gross": 58300000
+    },
+    "trivia": [
+      "The role of Andy Dufresne was originally offered to Tom Hanks",
+      "The movie is based on Stephen King's novella 'Rita Hayworth and Shawshank Redemption'"
+    ],
+    "quotes": [
+      "Get busy living, or get busy dying.",
+      "Hope is a good thing, maybe the best of things, and no good thing ever dies."
+    ],
+    "soundtrack": [
+      "May",
+      "Shawshank Prison (Stoic Theme)",
+      "New Fish",
+      "Rock Hammer",
+      "An Inch of His Life",
+      "If I Didn't Care"
+    ],
+    "behindTheScenes": [
+      "The movie was filmed in and around the Ohio State Reformatory",
+      "The prison yard scenes were filmed at the abandoned Mansfield Reformatory in Mansfield, Ohio"
+    ],
+    "relatedMovies": [
+      "The Green Mile",
+      "Forrest Gump",
+      "Pulp Fiction"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "The Dark Knight",
+    "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "releaseDate": "2008-07-18",
+    "director": "Christopher Nolan",
+    "cast": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart"
+    ],
+    "duration": 152,
+    "rating": 9.0,
+    "category": "Action",
+    "poster": "https://example.com/dark_knight.jpg",
+    "trailer": "https://youtube.com/watch?v=EXeTwQWrcwY",
+    "reviews": [
+      {
+        "author": "Movie Buff",
+        "content": "Heath Ledger's Joker is a performance for the ages.",
+        "rating": 5
+      },
+      {
+        "author": "Action Fan",
+        "content": "The best superhero movie ever made.",
+        "rating": 5
+      }
+    ],
+    "awards": [
+      "2 Academy Awards",
+      "Golden Globe for Best Supporting Actor - Heath Ledger"
+    ],
+    "boxOffice": {
+      "budget": 185000000,
+      "gross": 1004558444
+    },
+    "trivia": [
+      "Heath Ledger kept a diary to get into character as the Joker",
+      "The film features six minutes of IMAX footage, a first for Hollywood feature films"
+    ],
+    "quotes": [
+      "Why so serious?",
+      "You either die a hero or you live long enough to see yourself become the villain."
+    ],
+    "soundtrack": [
+      "Why So Serious?",
+      "Agent of Chaos",
+      "Like a Dog Chasing Cars",
+      "Watch the World Burn"
+    ],
+    "behindTheScenes": [
+      "The Batsuit was redesigned to allow Christian Bale to turn his head",
+      "The Joker's makeup was designed to look like it was applied by the character himself"
+    ],
+    "relatedMovies": [
+      "Batman Begins",
+      "The Dark Knight Rises",
+      "Inception"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Pulp Fiction",
+    "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "releaseDate": "1994-10-14",
+    "director": "Quentin Tarantino",
+    "cast": [
+      "John Travolta",
+      "Uma Thurman",
+      "Samuel L. Jackson"
+    ],
+    "duration": 154,
+    "rating": 8.9,
+    "category": "Crime",
+    "poster": "https://example.com/pulp_fiction.jpg",
+    "trailer": "https://youtube.com/watch?v=s7EdQ4FqbhY",
+    "reviews": [
+      {
+        "author": "Cinephile",
+        "content": "A groundbreaking film that redefined storytelling in cinema.",
+        "rating": 5
+      },
+      {
+        "author": "Movie Enthusiast",
+        "content": "Tarantino's masterpiece. Every scene is quotable.",
+        "rating": 5
+      }
+    ],
+    "awards": [
+      "Academy Award for Best Original Screenplay",
+      "Palme d'Or at the Cannes Film Festival"
+    ],
+    "boxOffice": {
+      "budget": 8000000,
+      "gross": 213928762
+    },
+    "trivia": [
+      "The film was shot in 8 weeks",
+      "The famous dance scene was improvised by John Travolta and Uma Thurman"
+    ],
+    "quotes": [
+      "Ezekiel 25:17. The path of the righteous man is beset on all sides by the inequities of the selfish and the tyranny of evil men.",
+      "Say 'what' again. Say 'what' again, I dare you, I double dare you!"
+    ],
+    "soundtrack": [
+      "Misirlou",
+      "Son of a Preacher Man",
+      "Girl, You'll Be a Woman Soon",
+      "Jungle Boogie"
+    ],
+    "behindTheScenes": [
+      "The 'Ezekiel 25:17' speech was written by Tarantino and Samuel L. Jackson",
+      "The film's non-linear structure was inspired by French New Wave cinema"
+    ],
+    "relatedMovies": [
+      "Reservoir Dogs",
+      "Jackie Brown",
+      "Kill Bill: Vol. 1"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Inception",
+    "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+    "releaseDate": "2010-07-16",
+    "director": "Christopher Nolan",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Ellen Page"
+    ],
+    "duration": 148,
+    "rating": 8.8,
+    "category": "Science Fiction",
+    "poster": "https://example.com/inception.jpg",
+    "trailer": "https://youtube.com/watch?v=YoHD9XEInc0",
+    "reviews": [
+      {
+        "author": "Sci-Fi Enthusiast",
+        "content": "A mind-bending journey that challenges perception and reality.",
+        "rating": 5
+      },
+      {
+        "author": "Film Student",
+        "content": "Nolan's masterpiece. Visually stunning with a complex narrative.",
+        "rating": 5
+      }
+    ],
+    "awards": [
+      "4 Academy Awards",
+      "3 BAFTA Awards"
+    ],
+    "boxOffice": {
+      "budget": 160000000,
+      "gross": 836836967
+    },
+    "trivia": [
+      "The rotating hallway scene was done with practical effects, not CGI",
+      "The entire film took 10 years for Christopher Nolan to write"
+    ],
+    "quotes": [
+      "You mustn't be afraid to dream a little bigger, darling.",
+      "An idea is like a virus. Resilient. Highly contagious. And even the smallest seed of an idea can grow. It can grow to define or destroy you."
+    ],
+    "soundtrack": [
+      "Time",
+      "Dream Is Collapsing",
+      "528491",
+      "Mombasa"
+    ],
+    "behindTheScenes": [
+      "The cast underwent a crash course in shared dreaming techniques",
+      "The snow fortress scenes were filmed in Calgary, Alberta"
+    ],
+    "relatedMovies": [
+      "The Matrix",
+      "Interstellar",
+      "Memento"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "The Grand Budapest Hotel",
+    "description": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.",
+    "releaseDate": "2014-03-28",
+    "director": "Wes Anderson",
+    "cast": [
+      "Ralph Fiennes",
+      "F. Murray Abraham",
+      "Mathieu Amalric"
+    ],
+    "duration": 99,
+    "rating": 8.1,
+    "category": "Comedy",
+    "poster": "https://example.com/grand_budapest_hotel.jpg",
+    "trailer": "https://youtube.com/watch?v=1Fg5iWmQjwk",
+    "reviews": [
+      {
+        "author": "Comedy Lover",
+        "content": "A delightful and visually stunning comedy with a touch of melancholy.",
+        "rating": 5
+      },
+      {
+        "author": "Art House Fan",
+        "content": "Wes Anderson at his quirky best. A feast for the eyes and the soul.",
+        "rating": 5
+      }
+    ],
+    "awards": [
+      "4 Academy Awards",
+      "Golden Globe for Best Motion Picture - Musical or Comedy"
+    ],
+    "boxOffice": {
+      "budget": 25000000,
+      "gross": 172936941
+    },
+    "trivia": [
+      "The aspect ratio changes throughout the film to reflect different time periods",
+      "The film's color palette was inspired by Ernst Lubitsch's films"
+    ],
+    "quotes": [
+      "You see, there are still faint glimmers of civilization left in this barbaric slaughterhouse that was once known as humanity.",
+      "Keep your hands off my lobby boy!"
+    ],
+    "soundtrack": [
+      "Mr. Moustafa",
+      "The New Lobby Boy",
+      "A Prayer for Madame D",
+      "The War (Zero's Theme)"
+    ],
+    "behindTheScenes": [
+      "The miniature models of the hotel were built by hand",
+      "The film's fictional country, Zubrowka, has its own detailed history and culture"
+    ],
+    "relatedMovies": [
+      "The Royal Tenenbaums",
+      "Moonrise Kingdom",
+      "The Life Aquatic with Steve Zissou"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Get Out",
+    "description": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.",
+    "releaseDate": "2017-02-24",
+    "director": "Jordan Peele",
+    "cast": [
+      "Daniel Kaluuya",
+      "Allison Williams",
+      "Bradley Whitford"
+    ],
+    "duration": 104,
+    "rating": 7.7,
+    "category": "Thriller",
+    "poster": "https://example.com/get_out.jpg",
+    "trailer": "https://youtube.com/watch?v=DzfpyUB60YY",
+    "reviews": [
+      {
+        "author": "Horror Fan",
+        "content": "A chilling and thought-provoking thriller that keeps you on the edge of your seat.",
+        "rating": 5
+      },
+      {
+        "author": "Social Commentator",
+        "content": "A brilliant exploration of racial tensions wrapped in a gripping thriller.",
+        "rating": 5
+      }
+    ],
+    "awards": [
+      "Academy Award for Best Original Screenplay",
+      "2 Critics' Choice Movie Awards"
+    ],
+    "boxOffice": {
+      "budget": 4500000,
+      "gross": 255407969
+    },
+    "trivia": [
+      "Jordan Peele's directorial debut",
+      "The film was shot in 23 days"
+    ],
+    "quotes": [
+      "I would have voted for Obama for a third term if I could.",
+      "Now, you're in the Sunken Place."
+    ],
+    "soundtrack": [
+      "Sikiliza Kwa Wahenga",
+      "Run Rabbit Run",
+      "Redbone",
+      "(I've Had) The Time of My Life"
+    ],
+    "behindTheScenes": [
+      "The hypnosis scene was shot in one take",
+      "The deer head in the basement was a real taxidermied deer"
+    ],
+    "relatedMovies": [
+      "Us",
+      "The Babadook",
+      "A Quiet Place"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "La La Land",
+    "description": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",
+    "releaseDate": "2016-12-09",
+    "director": "Damien Chazelle",
+    "cast": [
+      "Ryan Gosling",
+      "Emma Stone",
+      "John Legend"
+    ],
+    "duration": 128,
+    "rating": 8.0,
+    "category": "Drama",
+    "poster": "https://example.com/la_la_land.jpg",
+    "trailer": "https://youtube.com/watch?v=0pdqf4P9MB8",
+    "reviews": [
+      {
+        "author": "Musical Lover",
+        "content": "A beautiful and bittersweet modern musical that captures the magic of old Hollywood.",
+        "rating": 5
+      },
+      {
+        "author": "Romantic",
+        "content": "Gosling and Stone's chemistry lights up the screen in this enchanting love story.",
+        "rating": 5
+      }
+    ],
+    "awards": [
+      "6 Academy Awards",
+      "7 Golden Globe Awards"
+    ],
+    "boxOffice": {
+      "budget": 30000000,
+      "gross": 446092357
+    },
+    "trivia": [
+      "The opening traffic jam scene was shot in two days with over 100 dancers",
+      "Ryan Gosling learned to play jazz piano for the role"
+    ],
+    "quotes": [
+      "Here's to the ones who dream, foolish as they may seem.",
+      "I'm always gonna love you."
+    ],
+    "soundtrack": [
+      "Another Day of Sun",
+      "City of Stars",
+      "Audition (The Fools Who Dream)",
+      "Epilogue"
+    ],
+    "behindTheScenes": [
+      "The Griffith Observatory scene was filmed on location",
+      "The film's color palette was inspired by classic Technicolor musicals"
+    ],
+    "relatedMovies": [
+      "Whiplash",
+      "The Artist",
+      "Singin' in the Rain"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "The Martian",
+    "description": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.",
+    "releaseDate": "2015-10-02",
+    "director": "Ridley Scott",
+    "cast": [
+      "Matt Damon",
+      "Jessica Chastain",
+      "Kristen Wiig"
+    ],
+    "duration": 144,
+    "rating": 8.0,
+    "category": "Science Fiction",
+    "poster": "https://example.com/the_martian.jpg",
+    "trailer": "https://youtube.com/watch?v=ej3ioOneTy8",
+    "reviews": [
+      {
+        "author": "Space Enthusiast",
+        "content": "A thrilling and scientifically accurate space survival story.",
+        "rating": 5
+      },
+      {
+        "author": "Book Fan",
+        "content": "A faithful and engaging adaptation of Andy Weir's novel.",
+        "rating": 4
+      }
+    ],
+    "awards": [
+      "7 Academy Award nominations",
+      "2 Golden Globe Awards"
+    ],
+    "boxOffice": {
+      "budget": 108000000,
+      "gross": 630161890
+    },
+    "trivia": [
+      "NASA was consulted to ensure scientific accuracy",
+      "The Martian surface scenes were filmed in Wadi Rum, Jordan"
+    ],
+    "quotes": [
+      "I'm going to have to science the shit out of this.",
+      "In your face, Neil Armstrong!"
+    ],
+    "soundtrack": [
+      "Mars",
+      "Starman",
+      "Don't Leave Me This Way",
+      "I Will Survive"
+    ],
+    "behindTheScenes": [
+      "The actors wore real spacesuits weighing up to 30 pounds",
+      "A working farm was built on set to grow the potatoes"
+    ],
+    "relatedMovies": [
+      "Interstellar",
+      "Gravity",
+      "Apollo 13"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Parasite",
+    "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+    "releaseDate": "2019-10-11",
+    "director": "Bong Joon-ho",
+    "cast": [
+      "Song Kang-ho",
+      "Lee Sun-kyun",
+      "Cho Yeo-jeong"
+    ],
+    "duration": 132,
+    "rating": 8.6,
+    "category": "Thriller",
+    "poster": "https://example.com/parasite.jpg",
+    "trailer": "https://youtube.com/watch?v=5xH0HfJHsaY",
+    "reviews": [
+      {
+        "author": "Film Critic",
+        "content": "A masterful blend of dark comedy and social commentary.",
+        "rating": 5
+      },
+      {
+        "author": "International Cinema Fan",
+        "content": "A groundbreaking film that transcends language barriers.",
+        "rating": 5
+      }
+    ],
+    "awards": [
+      "4 Academy Awards including Best Picture",
+      "Palme d'Or at the Cannes Film Festival"
+    ],
+    "boxOffice": {
+      "budget": 11400000,
+      "gross": 258773928
+    },
+    "trivia": [
+      "The Park house was entirely built as a set",
+      "The film's title has multiple meanings in Korean"
+    ],
+    "quotes": [
+      "They're nice because they're rich.",
+      "You know what kind of plan never fails? No plan at all."
+    ],
+    "soundtrack": [
+      "Opening",
+      "Zappaguri",
+      "The Belt of Faith",
+      "Soju One Glass"
+    ],
+    "behindTheScenes": [
+      "The flood scene was filmed using real water",
+      "The actors had to practice folding pizza boxes for their roles"
+    ],
+    "relatedMovies": [
+      "Snowpiercer",
+      "The Host",
+      "Okja"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "The Big Lebowski",
+    "description": "Jeff 'The Dude' Lebowski, mistaken for a millionaire of the same name, seeks restitution for his ruined rug and enlists his bowling buddies to help get it.",
+    "releaseDate": "1998-03-06",
+    "director": "Joel Coen, Ethan Coen",
+    "cast": [
+      "Jeff Bridges",
+      "John Goodman",
+      "Julianne Moore"
+    ],
+    "duration": 117,
+    "rating": 8.1,
+    "category": "Comedy",
+    "poster": "https://example.com/the_big_lebowski.jpg",
+    "trailer": "https://youtube.com/watch?v=cd-go0oBF4Y",
+    "reviews": [
+      {
+        "author": "Cult Movie Fan",
+        "content": "A hilarious and quotable cult classic that only gets better with each viewing.",
+        "rating": 5
+      },
+      {
+        "author": "Comedy Connoisseur",
+        "content": "The Coen brothers at their quirky best. Jeff Bridges IS The Dude.",
+        "rating": 5
+      }
+    ],
+    "awards": [
+      "Empire Award for Best Actor - Jeff Bridges",
+      "Satellite Award for Best Actor - Motion Picture Musical or Comedy - Jeff Bridges"
+    ],
+    "boxOffice": {
+      "budget": 15000000,
+      "gross": 46189568
+    },
+    "trivia": [
+      "The Dude says 'man' 147 times in the movie",
+      "The film was a box office disappointment but became a cult classic"
+    ],
+    "quotes": [
+      "The Dude abides.",
+      "This aggression will not stand, man."
+    ],
+    "soundtrack": [
+      "The Man in Me",
+      "Just Dropped In (To See What Condition My Condition Was In)",
+      "Hotel California",
+      "Gutterballs"
+    ],
+    "behindTheScenes": [
+      "Jeff Bridges wore his own clothes for the role of The Dude",
+      "The dream sequences were inspired by Busby Berkeley musicals"
+    ],
+    "relatedMovies": [
+      "Fargo",
+      "O Brother, Where Art Thou?",
+      "The Big Short"
+    ]
+  }
+]
