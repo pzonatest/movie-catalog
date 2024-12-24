@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 'use client'
 
-import { useState } from 'react'
+import { useState, use } from 'react';
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import { Play, Star } from 'lucide-react'
@@ -10,7 +10,8 @@ import RateMovie from '@/components/RateMovie'
 import RelatedMovies from '@/components/RelatedMovies'
 import movies from '@/data/movies.json'
 
-export default function MoviePage({ params }: { params: { id: string } }) {
+export default function MoviePage(props: { params: Promise<{ id: string }> }) {
+  const params = use(props.params);
   const [isTrailerOpen, setIsTrailerOpen] = useState(false)
   const [userRating, setUserRating] = useState(0)
   const movie = movies.find(m => m.id === parseInt(params.id))

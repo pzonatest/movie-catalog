@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: { category: string 
   }
 }
 
-export default async function CategoryPage({ params }: { params: { category: string }) {
+export default async function CategoryPage({ params }: { params: { category: string }}) {
   const { category} = await params
   const formattedCategory = category.charAt(0).toUpperCase() + category.replace(/-/g, ' ').slice(1)
 

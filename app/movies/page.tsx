@@ -4,11 +4,12 @@ import { Suspense } from 'react'
 
 export const dynamic = 'force-dynamic'
 
-export default function MoviesPage({
-  searchParams,
-}: {
-  searchParams: { [key: string]: string | string[] | undefined }
-}) {
+export default async function MoviesPage(
+  props: {
+    searchParams: Promise<{ [key: string]: string | string[] | undefined }>
+  }
+) {
+  const searchParams = await props.searchParams;
   const category = typeof searchParams.category === 'string' ? searchParams.category : ''
   const search = typeof searchParams.search === 'string' ? searchParams.search : ''
   const sort = typeof searchParams.sort === 'string' ? searchParams.sort : ''
