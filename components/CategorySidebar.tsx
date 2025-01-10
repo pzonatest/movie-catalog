@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client'
 
 import { useState, useEffect } from 'react'
@@ -5,7 +6,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
 export default function CategorySidebar() {
-  const [categories, setCategories] = useState([])
+  const [categories, setCategories] = useState<any>([])
   const [isLoading, setIsLoading] = useState(true)
   const pathname = usePathname()
 
@@ -52,7 +53,7 @@ export default function CategorySidebar() {
             All Movies
           </Link>
         </li>
-        {categories.map((category) => (
+        {categories.map((category: string) => (
           <li key={category}>
             <Link
               href={`/categories/${category.toLowerCase().replace(/ /g, '-')}`}

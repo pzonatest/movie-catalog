@@ -1,0 +1,88 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Next: Server (Dev)",
+      "type": "node",
+      "internalConsoleOptions": "openOnSessionStart",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "node",
+      "runtimeVersion": "20",
+      "stopOnEntry": true,
+      "program": "node_modules/next/dist/bin/next",
+      "runtimeArgs": [
+        "--inspect"
+      ],
+      "console": "integratedTerminal",
+      "skipFiles": [
+        "<node_internals>/**",
+        "**/node_modules/**"
+      ],
+      "env": {
+        "TURBOPACK": "1",
+        "TURBOPACK_DEV": "1",
+        "TURBOPACK_BUILD": "1",
+        "NEXT_TELEMETRY_DISABLED": "1"
+      }
+    },
+    {
+      "name": "Next: Build",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "/Users/phil/.nvm/versions/node/v20.17.0/bin/node",
+      "runtimeVersion": "20",
+      "stopOnEntry": true,
+      "runtimeArgs": [
+        "node_modules/next/dist/bin/next",
+        "build"
+      ],
+      "console": "integratedTerminal",
+      "skipFiles": [
+        "<node_internals>/**",
+        // "**/node_modules/**"
+      ],
+      "env": {
+        "TURBOPACK": "1",
+        "TURBOPACK_DEV": "1",
+        "TURBOPACK_BUILD": "1",
+        "NEXT_TELEMETRY_DISABLED": "1"
+      }
+    },
+    {
+      "name": "Next: Client",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000"
+    },
+    {
+      "name": "Next: Full Stack",
+      "type": "node",
+      "request": "launch",
+      "internalConsoleOptions": "openOnSessionStart",
+      "stopOnEntry": true,
+      "program": "node_modules/next/dist/bin/next",
+      "runtimeArgs": [
+        "--inspect"
+      ],
+      "skipFiles": [
+        "<node_internals>/**",
+        "**/node_modules/**"
+      ],
+      "serverReadyAction": {
+        "action": "debugWithChrome",
+        "killOnServerStop": true,
+        "pattern": "- Local:.+(https?://.+)",
+        "uriFormat": "%s",
+        "webRoot": "${workspaceFolder}"
+      },
+      "env": {
+        "TURBOPACK": "1",
+        "TURBOPACK_DEV": "1",
+        "TURBOPACK_BUILD": "1",
+        "NEXT_TELEMETRY_DISABLED": "1"
+      }
+    },
+  ]
+}

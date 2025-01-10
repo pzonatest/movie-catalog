@@ -1,36 +1,35 @@
 /* eslint-disable react/no-unescaped-entities */
-'use client'
+"use client"; // split into smaller client components, the page should be server
 
-import { useState, use } from 'react';
-import { notFound } from 'next/navigation'
-import Image from 'next/image'
-import { Play, Star } from 'lucide-react'
-import TrailerModal from '@/components/TrailerModal'
-import RateMovie from '@/components/RateMovie'
-import RelatedMovies from '@/components/RelatedMovies'
-import movies from '@/data/movies.json'
+import RateMovie from "@/components/RateMovie";
+import RelatedMovies from "@/components/RelatedMovies";
+import TrailerModal from "@/components/TrailerModal";
+import movies from "@/data/movies.json";
+import { FilmIcon, Play, Star } from "lucide-react";
+import { notFound } from "next/navigation";
+import { use, useState } from "react";
 
 export default function MoviePage(props: { params: Promise<{ id: string }> }) {
   const params = use(props.params);
-  const [isTrailerOpen, setIsTrailerOpen] = useState(false)
-  const [userRating, setUserRating] = useState(0)
-  const movie = movies.find(m => m.id === parseInt(params.id))
+  const [isTrailerOpen, setIsTrailerOpen] = useState(false);
+  const [userRating, setUserRating] = useState(0);
+  const movie = movies.find((m) => m.id === Number.parseInt(params.id));
 
   if (!movie) {
-    notFound()
+    notFound();
   }
 
   return (
     <div className="max-w-4xl mx-auto">
       <div className="mb-12 relative">
-        <Image
-          src={movie.poster}
-          alt={`${movie.title} poster`}
-          width={1200}
-          height={675}
-          className="rounded-lg shadow-lg"
-        />
+        <div
+          data-kind="img-placeholder"
+          className="w-full h-48 grid place-items-center bg-gray-800"
+        >
+          <FilmIcon size={80} />
+        </div>
         <button
+          type="button"
           onClick={() => setIsTrailerOpen(true)}
           className="absolute bottom-4 right-4 bg-gray-900 text-gray-200 px-4 py-2 rounded-md flex items-center space-x-2 hover:bg-gray-800 transition-colors"
         >
@@ -45,9 +44,15 @@ export default function MoviePage(props: { params: Promise<{ id: string }> }) {
         <p className="text-lg mb-6">{movie.description}</p>
         <div className="grid grid-cols-2 gap-6">
           <div>
-            <p><strong>Director:</strong> {movie.director}</p>
-            <p><strong>Release Date:</strong> {movie.releaseDate}</p>
-            <p><strong>Duration:</strong> {movie.duration} minutes</p>
+            <p>
+              <strong>Director:</strong> {movie.director}
+            </p>
+            <p>
+              <strong>Release Date:</strong> {movie.releaseDate}
+            </p>
+            <p>
+              <strong>Duration:</strong> {movie.duration} minutes
+            </p>
             <p className="flex items-center">
               <strong>Rating:</strong>
               <Star className="w-5 h-5 text-yellow-400 ml-2 mr-1" />
@@ -59,14 +64,19 @@ export default function MoviePage(props: { params: Promise<{ id: string }> }) {
             </div>
           </div>
           <div>
-            <p><strong>Category:</strong> {movie.category}</p>
-            <p><strong>Cast:</strong> {movie.cast.join(', ')}</p>
+            <p>
+              <strong>Category:</strong> {movie.category}
+            </p>
+            <p>
+              <strong>Cast:</strong> {movie.cast.join(", ")}
+            </p>
           </div>
         </div>
       </div>
       <h2 className="text-2xl font-bold mb-6">Reviews</h2>
       <div className="space-y-6 mb-12">
         {movie.reviews.map((review, index) => (
+          // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
           <div key={index} className="border border-gray-800 p-6 rounded-lg">
             <p className="font-bold">{review.author}</p>
             <p className="text-gray-400 mb-2">Rating: {review.rating}/5</p>
@@ -79,50 +89,61 @@ export default function MoviePage(props: { params: Promise<{ id: string }> }) {
         <h3 className="text-xl font-bold mb-4">Awards</h3>
         <ul className="list-disc list-inside mb-6">
           {movie.awards.map((award, index) => (
+            // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
             <li key={index}>{award}</li>
           ))}
         </ul>
         <h3 className="text-xl font-bold mb-4">Box Office</h3>
-        <p><strong>Budget:</strong> ${movie.boxOffice.budget.toLocaleString()}</p>
-        <p><strong>Gross:</strong> ${movie.boxOffice.gross.toLocaleString()}</p>
+        <p>
+          <strong>Budget:</strong> ${movie.boxOffice.budget.toLocaleString()}
+        </p>
+        <p>
+          <strong>Gross:</strong> ${movie.boxOffice.gross.toLocaleString()}
+        </p>
         <h3 className="text-xl font-bold mt-6 mb-4">Trivia</h3>
         <ul className="list-disc list-inside mb-6">
           {movie.trivia.map((item, index) => (
+            // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
             <li key={index}>{item}</li>
           ))}
         </ul>
         <h3 className="text-xl font-bold mb-4">Memorable Quotes</h3>
         <ul className="list-disc list-inside mb-6">
           {movie.quotes.map((quote, index) => (
+            // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
             <li key={index}>"{quote}"</li>
           ))}
         </ul>
         <h3 className="text-xl font-bold mb-4">Soundtrack</h3>
         <ul className="list-disc list-inside mb-6">
           {movie.soundtrack.map((track, index) => (
+            // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
             <li key={index}>{track}</li>
           ))}
         </ul>
         <h3 className="text-xl font-bold mb-4">Behind the Scenes</h3>
         <ul className="list-disc list-inside mb-6">
           {movie.behindTheScenes.map((fact, index) => (
+            // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
             <li key={index}>{fact}</li>
           ))}
         </ul>
       </div>
-      <h2 className="text-2xl font-bold mt-12 mb-6">Related Movies</h2>
-      <RelatedMovies movies={movies.filter(m => movie.relatedMovies.includes(m.title)).map(m => ({
-        id: m.id,
-        title: m.title,
-        poster: m.poster,
-        rating: m.rating
-      }))} />
+      <RelatedMovies
+        movies={movies
+          .filter((m) => movie.relatedMovies.includes(m.title))
+          .map((m) => ({
+            id: m.id,
+            title: m.title,
+            poster: m.poster,
+            rating: m.rating,
+          }))}
+      />
       <TrailerModal
         isOpen={isTrailerOpen}
         onClose={() => setIsTrailerOpen(false)}
         trailerUrl={movie.trailer}
       />
     </div>
-  )
+  );
 }
-
